@@ -1,0 +1,174 @@
+#movie-library, #filters{
+    gap: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* addmovie.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #e50914;
+    margin-bottom: 30px;
+}
+
+.btn__out {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d40813;
+}
+
+#add-movie-form, #filters {
+    margin-bottom: 30px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#add-movie-form input, #add-movie-form select, #filters select {
+    display: block;
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+#add-movie-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+#add-movie-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d40813;
+}
+
+#movie-library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#movie-library .movie {
+    background-color: #222;
+    width: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#movie-library .movie img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#movie-library .movie h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+#movie-library .movie p {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.movie-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.movie-actions i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.favorite-icon {
+    color: #555;
+}
+
+.favorite-icon:hover {
+    color: #d40813;
+}
+
+.delete-icon {
+    color: #555;
+}
+
+.delete-icon:hover {
+    color: rgb(166, 166, 166);
+}
+
+.favorite-icon {
+    color: red;
+    cursor: pointer;
+    font-size: 1.5rem;
+    }
+    
+    .favorite-icon:hover {
+        transform: scale(1.2);
+    }
+    .favorite-icon {
+        cursor: pointer;
+        color: red;
+    }
+
+
+    .favorite-icon {
+        cursor: pointer;
+        color: red;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    

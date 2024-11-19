@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo"><i class="bx bxs-movie"></i>Movie</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <div id="account">
+            <a href="./index.html" class="btn" id="signInBtn">Sign Out</a>
+            <a href="./addmovie.html" class="btn" id="add">+Add movie</a>
+            <img src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Clip-Art-Transparent-PNG.png" alt="User" class="account-icon">
+            <span id="full_name"></span>
+        </div>
+    </header>
+        
+    <div class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+        <div class="movies-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m1.jpg" alt="Dr. Strange">
+                </div>
+                <h3>Dr. Strange</h3>
+                <span>120 min | Action</span>
+                <div class="personal-rating">
+                    <label>Your Rating: </label>
+                    <div class="stars">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m2.jpg" alt="Pathan">
+                </div>
+                <h3>Pathan</h3>
+                <span>120 min | Action</span>
+                <div class="personal-rating">
+                    <label>Your Rating: </label>
+                    <div class="stars">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m3.jpg" alt="Batman vs Superman">
+                </div>
+                <h3>Batman vs Superman</h3>
+                <span>120 min | Thriller</span>
+                <div class="personal-rating">
+                    <label>Your Rating: </label>
+                    <div class="stars">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m4.jpg" alt="John Wick 2">
+                </div>
+                <h3>John Wick 2</h3>
+                <span>120 min | Action</span>
+                <div class="personal-rating">
+                    <label>Your Rating: </label>
+                    <div class="stars">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c1.jpg" alt="Ant-Man and the Wasp: Quantumania">
+                    </div>
+                    <h3>Ant-Man and the Wasp: Quantumania</h3>
+                    <div class="personal-rating">
+                        <div class="stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c2.jpg" alt="The Flash">
+                    </div>
+                    <h3>The Flash</h3>
+                    <div class="personal-rating">
+                        <div class="stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c3.jpg" alt="Guardians of the Galaxy Vol. 3">
+                    </div>
+                    <h3>Guardians of the Galaxy Vol. 3</h3>
+                    <div class="personal-rating">
+                        <div class="stars">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./register.js"></script>
+</body>
+</html>

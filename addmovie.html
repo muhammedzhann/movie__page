@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Library</title>
+    <link rel="stylesheet" href="./addmovie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+        <div class="container">
+        <div class="btn__out">
+            <a href="./movie.html" class="btn" id="signInBtn">Out</a>
+        </div>
+        <h1>Movie Library</h1> 
+        <div id="add-movie-form">
+            <input type="text" id="movie-title" placeholder="Movie Title" required>
+            <select id="movie-genre">
+                <option value="">All Genres</option>
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+            </select>
+            <select id="movie-rating">
+                <option value="">All Ratings</option>
+                <option value="1">★</option>
+                <option value="2">★★</option>
+                <option value="3">★★★</option>
+                <option value="4">★★★★</option>
+                <option value="5">★★★★★</option>
+            </select>
+            <input type="url" id="movie-poster" accept="image/*" required>
+            <label for="movie-watched">Watched?</label>
+            <input type="checkbox" id="movie-watched">
+            <button id="add-movie-btn">Add Movie</button>
+        </div>
+
+        <h1>Filter</h1>
+        <div id="filters">
+            <select id="filterGenre">
+                <option value="">All Genres</option>
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+            </select>
+
+            <select id="filterRating">
+                <option value="">All Ratings</option>
+                <option value="1">★</option>
+                <option value="2">★★</option>
+                <option value="3">★★★</option>
+                <option value="4">★★★★</option>
+                <option value="5">★★★★★</option>
+            </select>
+            
+            <button id="showWatched">Show Watched</button>
+            
+        </div>      
+
+    <div id="movie-library" class="empty">
+        <p>No movies to display</p>
+    </div>
+
+    <script src="./addmovie.js"></script>
+
+
+
+</body>
+</html>
+
+
